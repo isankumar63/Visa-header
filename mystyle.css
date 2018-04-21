@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+}
+
+a span:hover{
+    color: #f7b600;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 20px;
+} 
+#primary-nav{
+    max-width: 1170px;
+	width:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+
+.mainNav{
+    box-sizing: border-box;
+    list-style-type: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    float: right;
+    
+}
+.mainNav li{
+    display: inline;
+    color: white;
+}
+
+
+
+.header{
+    width: 100%;
+    background: linear-gradient(to right , #1A1F5F, #132B8F);
+
+}
+.mainNav a{
+    text-decoration: none;
+   
+}
+.mainNav a span{
+    float: left;
+}
+.navbar-header{
+    width: 156.783px;
+    height: 68px;
+    margin: 0 ;
+    padding: 0 ;
+    margin-top:1px;
+}
+
+.navbar-header img{
+   
+    height: 25px;
+}
+
+.search-nav-item{
+    position: relative;
+}
+.sep-line{  
+    display: inline-block;
+    width: 1px;
+    height: 25px;
+    position: relative;
+    top: -11px;
+    float: left;   
+     position: relative;
+    left: -5px;
+    background-color: rgba(255,255,255,0.25);
+}
+.new-indicator-bar{
+   background:url("bar-image.jpg") 2500px 0;
+    width: 100%;
+    height: 5px;
+   
+}
+#arrow{
+    height: 10px;
+    width: 30px;
+    position: relative;
+    top: -13px;
+    transition-property: left;
+    transition-duration: 1s;
+    
+}
+
+.hidden{
+    display:none;
+}
+
+.searchimage{
+   width: 36px;
+    height: 36px;
+    position: relative;
+    top: -7px;
+    left: 2px;
+    }
+	.navbar-brand {
+    float: left;
+    padding: 1.2rem 1.5rem 0;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+    margin-top: 10px;
+}
+.navbar-header{
+    float: left;
+}
+.mobiel-btns{
+    margin-top: 20px;
+}
+.mobiel-btns img{
+    float: left;
+}
+.mobiel-btns button{
+   background: none;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.mooblie_view {
+       position: absolute;
+    background: #fff;
+    left: 0;
+    top: 75px;
+    right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 !important;
+}
+.mooblie_view .navbar-nav li{
+           padding: 2.4rem !important;
+    height: 80px;
+        font-size: 2.4rem;
+            color: #1a1f71 !important;
+        border-bottom: .1rem solid #dedede
+}
+.mooblie_view .navbar-nav li span
+{
+    margin-right: 10px;
+    color: #1a1f71;
+}
+}
+
+@media screen and (min-width: 768px){
+        .navbar-brand {
+            margin-left: 0;
+            margin-top: .5rem;
+        }
+        .navbar-header img {
+                height: 2.5rem;
+        }
+        .mainNav{
+                    float: right;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+        .mainNav a{
+                color: rgba(255,255,255,0.85);
+                padding-right: .9rem;
+                padding-left: .9rem;
+                   padding-top: 15px;
+                padding-bottom: 15px;
+                float: left;
+                margin-top: 1px;
+                font-size: 1.2rem;
+        }
+        .searchimage{
+            width: 25px;
+            height: 25px;
+        }
+        .header{
+            height: 62px;
+        }
+    }
+
+    @media screen and (min-width: 992px){
+        #primary-nav{
+               padding-left: 2rem;
+    padding-right: 2rem;
+        }
+    .navbar-brand {
+        margin-top: .9rem;
+        padding-top: .9rem;
+    }
+    .navbar-header img {
+        height: 3.2rem;
+    }
+.mainNav{
+           font-size: 1.8rem;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+}   
+.mainNav a{
+        font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.sep-line {
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+    height: 4.1rem;
+    }
+
+    .header {
+    width: 100%;
+    height: 70px;
+}
+.searchimage{
+    width: 30px;
+    height: 30px;
+}
+/*.mainNav a:nth-last-child(2){
+    padding-right: 0;
+}*/
+    }
+    
+
+	@media screen and (min-width: 1200px){
+        #primary-nav{
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    .navbar-brand {
+        margin-top: 1.8rem;
+        padding-top: .5rem;
+    }                       
+    .navbar-header img {
+     height: 4rem;
+    }
+.mainNav{
+        font-size: 2rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}   
+.mainNav a{
+    font-size: 1.7rem;
+    color: rgba(255,255,255,0.85);
+        padding-left: 2rem;
+    padding-right: 2rem;
+  
+}
+.header{
+        height: 88px;
+}
+.sep-line {
+   /* margin-left: 1.5rem;*/
+    margin-right: 3rem;
+    height: 4.5rem;
+}
+
+    }
+	   
+    
+	
